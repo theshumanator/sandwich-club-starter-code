@@ -8,4 +8,25 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="genericTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="labelStyle" parent="genericTextViewStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/detail_top_padding</item>
+        <item name="android:paddingRight">@dimen/detail_right_padding</item>
+    </style>
+
+    <style name="childLL">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="frameChildren">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
 </resources>
